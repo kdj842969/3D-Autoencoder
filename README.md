@@ -1,11 +1,18 @@
 # 3D-Autoencoder
 A 3D auto-encoder project based on ShapeNet dataset
+
+## Copyright
+* This is an open source demo project from [Jingjing Yang](https://www.linkedin.com/in/jingjingyang801/)
+* Any question, please contact [yjj801@uw.edu](yjj801@uw.edu)
+
 ## Introduction
 * This project is a real 3D auto-encoder based on ShapeNet
 * In this project, our input is real 3D object in 3d array format. And we use 3D convolution layer to learn the patterns of objects.
+
 ## Installation
 * Our project is based on [Tensorflow](https://www.tensorflow.org) and [Keras](https://keras.io).
 * In order to write our input to hdf5 file, we also need [h5py library](https://www.h5py.org).
+
 ## Dataset
 * We use [3D ShapeNet](http://3dshapenets.cs.princeton.edu) as our dataset.
 * To avoid use .off data, we use volumetric data in their source code.
@@ -32,27 +39,27 @@ A 3D auto-encoder project based on ShapeNet dataset
 * Training loss:
 
 <p align="center">
-  <https://github.com/kdj842969/3D-Autoencoder/blob/master/trainingloss.png" height="250">
+  <img src="https://github.com/kdj842969/3D-Autoencoder/blob/master/trainingloss.png" height="250">
 </p>
                                                                                          
 * Validation loss:
 <p align="center">
-  <https://github.com/kdj842969/3D-Autoencoder/blob/master/validationloss.png" height="250">
+  <img src="https://github.com/kdj842969/3D-Autoencoder/blob/master/validationloss.png" height="250">
 </p>
                                                                                            
 * Reconstruction example:
   * demo 1 (class: "airplane")
   <p align="center">
-    <https://github.com/kdj842969/3D-Autoencoder/blob/master/result/demo0.png" height="250">
+    <img src="https://github.com/kdj842969/3D-Autoencoder/blob/master/result/demo0.png" height="250">
   </p>
                                                                                            
   * demo 2 (class: "bathtub")
   <p align="center">
-    <https://github.com/kdj842969/3D-Autoencoder/blob/master/result/demo5.png" height="250">
+    <img src="https://github.com/kdj842969/3D-Autoencoder/blob/master/result/demo5.png" height="250">
   </p>
                                                                                            
   * demo 3 (class: "chair")
   <p align="center">
-    <https://github.com/kdj842969/3D-Autoencoder/blob/master/result/demo6.png" height="250">
+    <img src="https://github.com/kdj842969/3D-Autoencoder/blob/master/result/demo6.png" height="250">
   </p>
                                                                                            
