@@ -3,7 +3,7 @@ A 3D auto-encoder project based on ShapeNet dataset
 
 ## Copyright
 * This is an open source demo project from [Jingjing Yang](https://www.linkedin.com/in/jingjingyang801/)
-* Any question, please contact [yjj801@uw.edu](yjj801@uw.edu)
+* Any question, please contact [kdj842969@gmail.com](kdj842969@gmail.com)
 
 ## Introduction
 * This project is a real 3D auto-encoder based on ShapeNet
